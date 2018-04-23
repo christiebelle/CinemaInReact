@@ -10,7 +10,7 @@ class MovieList extends Component{
         </Movie>
       );
     });
-    return <div className="movielist">{movietNodes}</div>
+    return <div className="movielist">{movieNodes}</div>
   }
 }
 
