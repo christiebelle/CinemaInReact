@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import CommentList from '../components/CommentList'
+
 
 class MovieBox extends Component{
 
