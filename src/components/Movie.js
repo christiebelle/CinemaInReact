@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Movie=(props) =>
-    <div className="Movie">
-      <h4 className="MovieTitle">{props.title}</h4>
+    <div className="movie">
+      <h4 className="movieTitle">{props.title}</h4>
         {props.children};
     </div>
 

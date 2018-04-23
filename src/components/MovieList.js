@@ -3,10 +3,10 @@ import Movie from "./Movie";
 
 class MovieList extends Component{
   render(){
-    const movieNodes = this.props.data.map(Movie => {
+    const movieNodes = this.props.data.map(movie => {
       return(
-        <Movie author={Movie.title} key={Movie.id}>
-          {Movie.showtimes}
+        <Movie title={movie.title} key={movie.id}>
+          {movie.showtimes};
         </Movie>
       );
     });
