@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import CommentList from '../components/CommentList'
+import MovieList from '../components/MovieList'
 
 
 class MovieBox extends Component{
